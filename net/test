@@ -1,0 +1,18 @@
+[
+    {
+        "tag": "pg",
+        "content": "Test"
+    },
+    {
+        "tag": "pg",
+        "content": "Hejsan allihopa!"
+    },
+    {
+        "tag": "a",
+        "content": "link"
+    },
+    {
+        "tag": "a",
+        "content": "link"
+    }
+]

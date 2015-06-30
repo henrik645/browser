@@ -1,0 +1,50 @@
+[
+    {
+        "tag": "pg",
+        "content": "NORMAN"
+    },
+    {
+        "tag": "pg",
+        "content": "Welcome to the Norman homepage!"
+    },
+    {
+        "tag": "pg",
+        "content": "Norman Network is a company created to handle the Networking part of Norman Inc."
+    },
+    {
+        "tag": "pg",
+        "content": "You can count on us when you need us."
+    },
+    {
+        "tag": "text",
+        "content": "Link to test site: "
+    },
+    {
+        "tag": "a",
+        "content": "test"
+    },
+    {
+        "tag": "br",
+        "content": ""
+    },
+    {
+        "tag": "text",
+        "content": "Link to link-testing page: "
+    },
+    {
+        "tag": "a",
+        "content": "link"
+    },
+    {
+        "tag": "br",
+        "content": ""
+    },
+    {
+        "tag": "br",
+        "content": ""
+    },
+    {
+        "tag": "pg",
+        "content": "We hope to see you again!"
+    }
+]
