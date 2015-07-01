@@ -33,7 +33,7 @@ class Page:
             abs_url = os.path.join('net', self.url)
             try:
                 file = open(abs_url, "r")
-            except (FileNotFoundError, OSError, IOError, IsADirectoryError):
+            except (OSError, IOError, IsADirectoryError):
                 self.error('404 - File not found')
                 self.content = None
                 return
