@@ -2,5 +2,7 @@
     "net_dir": "/tmp/browser/net",
     "title": "NORMAN EXPLORER",
     "version": "v1.0",
-    "horizontal_line": "-"
+    "horizontal_line": "-",
+    "folder_separator": "/",
+    "index_file": "index"
 }

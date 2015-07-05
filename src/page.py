@@ -25,12 +25,21 @@ class Page:
         
     def error(self, message):
         self.render += 'Error: ' + message + '\n'
+    
+    def resolve_url(net_dir, url, config):
+        url_parts = url.split(config.get_parameter('folder_separator'))
+        url_parts = [part for part in url_parts if part != ''] #Removes all 'empty' folders 
+        path = os.path.join(*url_parts) #joins the parts together using 'splatting'
+        if os.path.isdir(os.path.join(config.get_parameter('net_dir'), path)):
+            path = os.path.join(path, config.get_parameter('index_file'))
+        print(path)
+        return path
         
     def load_page(self, config):
         if not os.path.isdir(config.get_parameter('net_dir')):
             self.error('No net directory')
         else:
-            abs_url = os.path.join(config.get_parameter('net_dir'), self.url)
+            abs_url = os.path.join(config.get_parameter('net_dir'), self.resolve_url(self.url, config))
             try:
                 file = open(abs_url, "r")
             except (OSError, IOError, IsADirectoryError):
