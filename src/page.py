@@ -1,10 +1,10 @@
 import os
 import json
 
-import paragraph
-import link
-import linebreak
-import text
+from tags import paragraph
+from tags import link
+from tags import linebreak
+from tags import text
 
 tags = {
     'pg': paragraph.function,
