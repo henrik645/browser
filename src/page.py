@@ -26,11 +26,11 @@ class Page:
     def error(self, message):
         self.render += 'Error: ' + message + '\n'
         
-    def load_page(self):
-        if not os.path.isdir('net'):
+    def load_page(self, config):
+        if not os.path.isdir(config.get_parameter('net_dir')):
             self.error('No net directory')
         else:
-            abs_url = os.path.join('net', self.url)
+            abs_url = os.path.join(config.get_parameter('net_dir'), self.url)
             try:
                 file = open(abs_url, "r")
             except (OSError, IOError, IsADirectoryError):
