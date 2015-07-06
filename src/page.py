@@ -5,12 +5,16 @@ from tags import paragraph
 from tags import link
 from tags import linebreak
 from tags import text
+from tags import h1
+from tags import h2
 
 tags = {
     'pg': paragraph.function,
     'a': link.function,
     'br': linebreak.function,
-    'text': text.function
+    'text': text.function,
+    'h1': h1.function,
+    'h2': h2.function
 }
 
 class Page:
