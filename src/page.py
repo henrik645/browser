@@ -29,7 +29,10 @@ class Page:
     def resolve_url(net_dir, url, config):
         url_parts = url.split(config.get_parameter('folder_separator'))
         url_parts = [part for part in url_parts if part != ''] #Removes all 'empty' folders 
-        path = os.path.join(*url_parts) #joins the parts together using 'splatting'
+        if len(url_parts) > 0:
+            path = os.path.join(*url_parts) #joins the parts together using 'splatting'
+        else:
+            path = ''
         if os.path.isdir(os.path.join(config.get_parameter('net_dir'), path)):
             path = os.path.join(path, config.get_parameter('index_file'))
         print(path)
