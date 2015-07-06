@@ -1,0 +1,46 @@
+[
+    {
+        "tag": "h1",
+        "content": "Products"
+    },
+    {
+        "tag": "pg",
+        "content": "This is a page describing the products Norman solutions has to offer."
+    },
+    {
+        "tag": "h2",
+        "content": "Norman Explorer"
+    },
+    {
+        "tag": "pg",
+        "content": "Norman explorer is an intra-net browser designed and created by Norman Solutions."
+    },
+    {
+        "tag": "pg",
+        "content": "It is currently the best browser available on the market."
+    },
+    {
+        "tag": "text",
+        "content": "Link to product page: "
+    },
+    {
+        "tag": "a",
+        "content": "nor/products/browser"
+    },
+    {
+        "tag": "br",
+        "content": ""
+    },
+    {
+        "tag": "text",
+        "content": "Back "
+    },
+    {
+        "tag": "a",
+        "content": "nor/index"
+    },
+    {
+        "tag": "br",
+        "content": ""
+    }
+]

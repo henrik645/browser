@@ -17,10 +17,14 @@
     },
     {
         "tag": "text",
-        "content": "Link to test page: "
+        "content": "Link to products page: "
     },
     {
         "tag": "a",
-        "content": "test"
+        "content": "nor/products"
+    },
+    {
+        "tag": "br",
+        "content": ""
     }
 ]
