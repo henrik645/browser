@@ -1,6 +1,26 @@
 [
     {
-        "tag": "pg",
+        "tag": "h1",
         "content": "Welcome!"
+    },
+    {
+        "tag": "pg",
+        "content": "This is the official Norman webpage."
+    },
+    {
+        "tag": "pg",
+        "content": "More content will soon follow."
+    },
+    {
+        "tag": "h2",
+        "content": "Links"
+    },
+    {
+        "tag": "text",
+        "content": "Link to test page: "
+    },
+    {
+        "tag": "a",
+        "content": "test"
     }
 ]
